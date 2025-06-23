@@ -59,15 +59,22 @@ const ProjectsSection = () => {
         My Projects
       </h2>
 
-      <div className="text-white flex flex-row justify-center items-center gap-4 pb-10">
-        {["All", "Web", "Mobile"].map((category) => (
-          <ProjectTag
-            key={category}
-            onClick={handleTagChange}
-            name={category}
-            isSelected={tag === category}
-          />
-        ))}
+      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+        <ProjectTag
+          onClick={handleTagChange}
+          name="All"
+          isSelected={tag === "All"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Web"
+          isSelected={tag === "Web"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Mobile"
+          isSelected={tag === "Mobile"}
+        />
       </div>
 
       <ul
