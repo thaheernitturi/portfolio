@@ -29,7 +29,7 @@ const projectsData = [
     description: "A stylish personal portfolio to showcase my skills, projects, and contact details.",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/thaheernitturi/portfolio.git",
+    gitUrl: "https://github.com/thaheernitturi/portfolio",
     previewUrl: "/",
   },
   
